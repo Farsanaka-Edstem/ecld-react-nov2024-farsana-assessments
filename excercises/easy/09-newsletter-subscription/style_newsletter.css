@@ -1,0 +1,62 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family:sans-serif;
+  background: #f5a3a3;
+}
+.subscription-box{
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 10px 4px 6px rgba(0, 0, 0, 0.212);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+
+}
+h2{
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+.input-btn{
+display: flex;;
+justify-content: center;
+
+}
+input{
+  padding: 10px 15px;
+  font-size: 1rem;
+  margin: 5px ;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #fa287f;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+button:hover {
+  background: #4e052a;
+}
+.thank-you{
+  display: none;
+  color: #0e3317;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+.input-btn:hover ~ .thank-you,
+.input-btn:focus-within ~ .thank-you{
+  display: block;
+}

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 224, 215);
+}
+.post-card {
+  margin-top: 3rem;
+  box-shadow: 7px 2px 6px 3px grey;
+  border-radius: 4rem;
+  border: 1px solid rgb(104, 103, 103);
+  max-width: 40rem;
+  max-height: 200rem;
+  background-color: rgb(210, 212, 211);
+  position: relative;
+}
+img {
+  width: 100%;
+  margin-bottom: 4rem;
+  height: 22rem;
+  border-radius: 4rem 4rem 0rem 0rem;
+}
+.main-heading {
+  text-align: center;
+  font-size: 2rem;
+}
+.profile_pic {
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  position: absolute;
+  right: 36%;
+  top: 30%;
+  box-shadow: 7px 2px 7px rgb(61, 61, 61);
+}
+.job {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.description {
+  font-size: 1.4rem;
+  /* width:97%; */
+  text-align: center;
+  margin:15px 9px 10px 20px;
+  
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+.link {
+  padding: 0.7rem 3rem;
+
+  border-radius: 3rem;
+
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(38, 55, 105),
+    rgb(46, 43, 45)
+  );
+}
+a:link {
+  color: beige;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.link:hover {
+  transform: scale(1.09);
+}
