@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="updatedstyle.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    rel="stylesheet"
+  />
+    <title>GRC Register</title>
+  </head>
+  <body>
+    <main>
+      <aside>
+        <!-- grc heading -->
+        <div class="grc-header">
+          <div class="grec-heading">
+            <h1><strong>GRC</strong><p id="register"> REGISTER</p></h1>
+          </div>
+          <div class="menu-icon"><
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- search, bell,profile image -->
+
+      <header class="profile-header">
+        <div class="search-div">
+          <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="profile">
+      <div class="bell-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="nav-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"
+          />
+        </svg>
+       </div>
+       <div class="propic-img">
+        <img
+          src="face1.jpg"
+          alt="profile picture of David Jhonson"
+          class="propic-img"
+        />
+       </div>
+       <div class="darrow-icon">
+        <i class="fa-solid fa-angle-down"></i>
+      </div>
+    </div>
+      </header>
+
+      <!--Dashboard  -->
+      <aside>
+        <nav>
+          <div class="list">
+         <ul>
+            <li>
+              <i class="fa-regular fa-envelope-open"></i>
+              <span>Dashboard</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-table"></i>
+              <span>Modules</span>
+            </li>
+            <li id="selected-nav">
+              <i class="fa-solid fa-user"></i>
+              <span>Loss Events & Issue  Management</span>
+            </li>
+            <li>
+              <i class="fa-regular fa-bookmark"></i>
+              <span>New Product Approval</span>
+            </li>
+            <li>
+              <i class="fa-regular fa-circle"></i>
+              <span>Third Part Management</span>
+            </li>
+            <li>
+              <i class="fa-regular fa-file"></i>
+              <span>Business Risk Self  Assessment</span>
+            </li>
+            <li>
+              <i class="fa-regular fa-star"></i>
+              <span>User Access Request</span>
+            </li>
+          </ul>
+          </div>
+        </nav>
+      </aside>
+
+      <!-- loss events and issue managemnt -->
+      <section class="main-events-section">
+        <div class="loss-heading">
+          <h2>Loss Events & Issue Managment</h2>
+          <h3>Dashboard / Loss Events & Issue Managment</h3>
+        </div>
+
+        <div class="confirmedAll-buttons">
+          <p id="btn-selected">Confirmed Events</p>
+          <p>All Events</p>
+        </div>
+        <div class="searchEvents">
+          <!-- <div class="events-search">
+            <input type="text" placeholder="Search" />
+          </div> -->
+          <div class="search-div search-event" id="search-event">
+            <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+          <input type="text" placeholder="Search" />
+        </div>
+          <div class="events">
+            <table>
+              <tr>
+                <th>Events Title</th>
+                <th>Reported date</th>
+                <th>Status</th>
+              </tr>
+              <tr>
+                <td>Title of the event</td>
+                <td>Nov 24, 2024</td>
+                <td><p class="confirmed-text">Confirmed</p></td>
+              </tr>
+              <tr>
+                <td>Title of the event</td>
+                <td>Nov 24, 2024</td>
+                <td><p class="confirmed-text">Confirmed</p></td>
+              </tr>
+              <tr>
+                <td>Title of the event</td>
+                <td>Nov 24, 2024</td>
+                <td><p class="confirmed-text">Confirmed</p></td>
+              </tr>
+              <tr>
+                <td>Title of the event</td>
+                <td>Nov 24, 2024</td>
+                <td><p class="confirmed-text">Confirmed</p></td>
+              </tr>
+              <tr>
+                <td>Title of the event</td>
+                <td>Nov 24, 2024</td>
+                <td><p class="confirmed-text">Confirmed</p></td>
+              </tr>
+              <tr>
+                <td>Title of the event</td>
+                <td>Nov 24, 2024</td>
+                <td><p class="confirmed-text">Confirmed</p></td>
+              </tr>
+              <tr>
+                <td>Title of the event</td>
+                <td>Nov 24, 2024</td>
+                <td><p class="confirmed-text">Confirmed</p></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const menuicon = document.querySelector(".menu-icon");
+        const ul = document.querySelector("ul");
+        const register = document.querySelector("#register");
+ 
+  
+        menuicon.addEventListener("click", () => {
+          ul.classList.toggle("active");
+          register.classList.toggle("active");
+        });
+      });
+
+      menu-icon.addEventListener('click', toggleMenu);
+
+// Ensure menu is always visible in mobile view
+function ensureMobileMenu() {
+  if (window.matchMedia("(max-width: 500px)").matches) {
+    ul.style.display = 'block';
+  } else {
+   ul.style.display = 'none'; // Hide menu by default in desktop
+  }
+}
+
+// Run the function on load and window resize
+ensureMobileMenu();
+window.addEventListener('resize', ensureMobileMenu);
+    </script>
+  </body>
+</html>
